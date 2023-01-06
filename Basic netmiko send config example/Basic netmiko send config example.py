@@ -7,7 +7,6 @@ for i in range(1,11):
         'ip': '::1',
         'host': 'R'+ str(i),
         'port': port,
-        #'read_timeout_override' : 90
         })
   port = port + 2
 
